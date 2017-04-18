@@ -76,6 +76,7 @@ header .text-center {
     border: none;
     cursor: pointer;
 }
+.portfolio #works {float: left; width: 100%; overflow: hidden;}
 .portfolio #works > div {
     float: left;
     width: 31.3333%;
