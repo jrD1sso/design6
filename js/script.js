@@ -18,6 +18,15 @@ $(function () {
     	}
     });
 
+    // Smooth Scroll To Div
+    
+    $('nav .links li a').click(function () {
+        $('html, body').animate({
+            scrollTop: $('#' + $(this).data('value')).offset().top - (50)
+        }, 1000);
+      
+    });
+
     // Nice Scroll
     $("html").niceScroll({
         cursorcolor: '#e8115b',
