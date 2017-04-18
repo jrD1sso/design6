@@ -1,0 +1,27 @@
+body {background-color: #101010; color: #fff;}
+p {color: #f1f1f1;}
+nav {background-color: #0c0c0c;}
+
+.myButton {background-color: #ff9800;}
+.myText,
+nav .links a:hover,
+.portfolio #mixUp button.active,
+.portfolio #mixUp button:hover,
+footer span span  {color: #ff9800;}
+
+nav .links a,
+.portfolio #mixUp button,
+.contactMe input,
+.contactMe textarea {color: #fff;}
+
+.contactMe input:hover,
+.contactMe textarea:hover,
+.portfolio #works .hover {border: 3px solid #ff9800;}
+
+.contactMe input,
+.contactMe textarea {background-color: #263248;}
+
+header .cover,
+.portfolio #works .cover {background-color: rgba(0,0,0,.7);}
+
+footer {background-color: #000;}

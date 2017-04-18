@@ -1,0 +1,30 @@
+body {background-color: #f2f2f2; color: #000;}
+p {color: #757575;}
+
+.myButton {background-color: #3a8cc3; color: #fff;}
+.myText,
+nav .links a:hover,
+.portfolio #mixUp button.active,
+.portfolio #mixUp button:hover,
+footer span span,
+nav .brand h2 {color: #3a8cc3;}
+
+nav .links a,
+.portfolio #mixUp button,
+.contactMe input,
+.contactMe textarea {color: #000;}
+
+nav,
+.contactMe input,
+.contactMe textarea,
+footer {background-color: #fff;}
+
+.portfolio #works .hover {color: #fff;}
+.portfolio #works .hover p {color: #f2f2f2;}
+
+.contactMe input:hover,
+.contactMe textarea:hover {border: 3px solid #3a8cc3;}
+.portfolio #works .hover {border: 3px solid #fff;}
+
+header .cover {background-color: rgba(0,0,0,.1);}
+.portfolio #works .cover {background-color: rgba(29,161,242,.43);}

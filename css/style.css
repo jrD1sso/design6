@@ -1,0 +1,152 @@
+/* ======= Global ======= */
+body {margin: 0;}
+section {overflow: hidden; padding: 40px 0;}
+h1,h2,h3,h4 {font-family: 'Droid Sans', sans-serif; margin: 0;}
+h2 {font-size: 1.75em;}
+h3 {font-size: 1.4em;}
+.container {width: 85%; margin: auto;}
+.container2 {width: 40%; margin: auto;}
+.cleafix {clear: both;}
+.pull-left {float: left;}
+.pull-right {float: right;}
+.text-center {text-align: center;}
+.myButton {
+    color: #fff;
+    padding: 10px 25px;
+    width: 90px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ======= Themes ======= */
+aside {position: fixed; margin-top: 12vh; width: 100%; z-index: 9999;}
+aside .themes {padding: 10px;}
+aside .themes span.fa-star-o {cursor: pointer; color: #ff9800;}
+aside .themes span.fa-circle-o {cursor: pointer; color: #3a8cc3;}
+
+/* ============ Navbar ============ */
+nav {
+    position: fixed;
+    width: 100%;
+    padding-top: 6px;
+    height: 54px;
+    z-index: 999;
+}
+nav .brand {padding-top: 3px;}
+nav .brand h2 {margin-top: 6px;}
+nav .links ul {list-style: none; overflow: hidden; margin: 18px 0 0;}
+nav .links li {display: inline; padding: 4px 25px; cursor: pointer;}
+nav .links a {text-decoration: none;}
+
+/* ============ Header ============ */
+header {
+    padding-top: 60px;
+    background: url('../images/background.png') no-repeat top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    height: calc(100vh - 48px);
+    overflow: hidden;
+}
+header .cover {
+    width: 100%;
+    height: 100%;
+}
+header .text-center {
+    padding-top: calc((75vh - 54px)/2);
+}
+
+/* ============ Skills ============ */
+.skills {padding-bottom: 0;}
+.skills .box {
+    width: 46%;
+    margin: 0 2% 40px;
+    float: left;
+}
+.skills .box span {margin-right: .7em;}
+.skills .box h3 {margin-top: 11px;}
+.skills .box p {margin-top: 25px; width: 90%; margin-bottom: 0;}
+
+/* ============ Portfolio ============ */
+.portfolio #mixUp button {
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.portfolio #works > div {
+    float: left;
+    width: 31.3333%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.portfolio #works > div img {width: 100%; height: 100%;}
+.portfolio #works > div > div {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio #works .cover {
+    position: absolute;
+    width: 100%; height: 100%;
+    left: 0; bottom: 0; top: 0; right: 0;
+    display: none;
+}
+.portfolio #works .hover {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    display: none;
+}
+.portfolio #works > div > div:hover .cover,
+.portfolio #works > div > div:hover .hover {display: block;}
+.portfolio #works .hover h3 {margin: 18px auto 12px;}
+.portfolio #works .hover p {width: 75%; margin: auto;}
+.portfolio #works .hover span {margin-top: 10px;}
+.portfolio #works > div:nth-of-type(1) > div:nth-of-type(1) {height: 340px;}
+.portfolio #works > div:nth-of-type(1) > div:nth-of-type(2) {height: 270px;}
+.portfolio #works > div:nth-of-type(1) > div:nth-of-type(3) {height: 225px;}
+.portfolio #works > div:nth-of-type(2) > div:nth-of-type(1) {height: 276px;}
+.portfolio #works > div:nth-of-type(2) > div:nth-of-type(2) {height: 270px;}
+.portfolio #works > div:nth-of-type(2) > div:nth-of-type(3) {height: 290px;}
+.portfolio #works > div:nth-of-type(3) > div:nth-of-type(1) {height: 450px;}
+.portfolio #works > div:nth-of-type(3) > div:nth-of-type(2) {height: 407px;}
+
+/* ============ contactMe ============ */
+.contactMe input,
+.contactMe textarea {
+    display: block;
+    width: 40%;
+    padding: 13px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: 3px solid transparent;
+}
+.contactMe textarea {height: 170px; resize: none;}
+
+/* ============ followMe ============ */
+.followMe h2 {margin-bottom: 15px;}
+.followMe span {
+    margin: 0 5px;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+.followMe span.fa-facebook:hover {color: #3b5998;}
+.followMe span.fa-twitter:hover {color: #1da1f2;}
+.followMe span.fa-google-plus:hover {color: #dd4b39;}
+.followMe span.fa-pinterest-p:hover {color: #bd081c;}
+.followMe span.fa-linkedin:hover {color: #0077b5;}
+.followMe span.fa-behance:hover {color: #1769ff;}
+.followMe span.fa-github:hover {color: #6e5494;}
+.followMe span.fa-reddit:hover {color: #ff4500;}
+.followMe span.fa-instagram:hover {color: #e1306c;}
+
+/* ============ Footer ============ */
+footer {padding: 7px; margin-top: 20px;}
+footer .fa-heart {color: #cd201f; font-size: .8em;}
